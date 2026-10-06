@@ -1,0 +1,26 @@
+name: app_financeiro
+description: "App de Controle Financeiro Familiar"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^2.0.0
+  intl: ^0.18.1
+  local_auth: ^2.1.6
+  speech_to_text: ^6.3.0
+  pdf: ^3.10.4
+  printing: ^5.11.0
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
